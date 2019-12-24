@@ -1,0 +1,10 @@
+<view class="home">
+  <view class="top">
+    <text></text>
+    <text class="explore">{{explore}}</text>
+    <view class="explore-right">
+      <text class="icon iconfont icon-sifangkuai"></text>
+      <text class="iconf iconfont icon-fangkuai"></text>
+    </view>
+  </view>
+</view>

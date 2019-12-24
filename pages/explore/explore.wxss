@@ -1,0 +1,26 @@
+.home {
+  background-color: #21272e;
+  padding: 0 50rpx;
+}
+
+.top {
+  height: 100rpx;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  color: #fff;
+  font-size: 35rpx;
+}
+.explore{
+  color: #fff;
+  font-size: 35rpx;
+  padding-left: 84rpx;
+}
+.iconf {
+  color: #fff;
+  font-size: 35rpx;
+  padding-left: 20rpx;
+}

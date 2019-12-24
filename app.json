@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/fiction/fiction",
+    "pages/explore/explore",
+    "pages/homepage/homepage",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 10000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#4DBEFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "img/images/diqiu.png",
+        "pagePath": "pages/homepage/homepage",
+        "selectedIconPath": "img/images/diqiu1.png"
+      },
+      {
+        "pagePath": "pages/fiction/fiction",
+        "iconPath": "img/images/shouye.png",
+        "selectedIconPath": "img/images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/images/shu.png",
+        "selectedIconPath": "img/images/shu1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/images/wodedangxuan.png",
+        "selectedIconPath": "img/images/wodedangxuan1.png"
+      }
+    ]
+  }
+}

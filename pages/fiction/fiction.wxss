@@ -1,0 +1,92 @@
+.home {
+  background-color: #21272e;
+  padding: 0 50rpx;
+}
+
+.top {
+  height: 100rpx;
+  width: 650rpx;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.iconf {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.science {
+  font-size: 35rpx;
+  color: #fff;
+}
+.details {
+  width: 750rpx;
+}
+.details-title {
+  width: 600rpx;
+  height: 250rpx;
+  background-color: #2a3039;
+  text-align: left;
+  position: relative;
+  border-radius: 40rpx;
+  margin-top: 50rpx;
+}
+
+.details-all {
+  margin-top: 40rpx;
+  width: 640rpx !important;
+  overflow: visible;
+}
+
+.details-future {
+  position: absolute;
+  top: -30rpx;
+  left: 20rpx;
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+}
+
+.details-right {
+  float: right;
+  width: 370rpx;
+  padding: 20rpx 20rpx 0rpx 0;
+}
+
+.end-top {
+  height: 120rpx;
+  border-bottom: 2rpx solid #5d637c;
+}
+
+.dian {
+  float: right;
+}
+
+.details-name {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.writer-details {
+  display: block;
+  color: #5d637c;
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}
+
+.writer-about {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 25rpx;
+  padding-top: 10rpx;
+}

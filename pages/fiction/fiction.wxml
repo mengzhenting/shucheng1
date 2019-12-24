@@ -1,0 +1,22 @@
+<view class="home">
+  <view class="top">
+    <view class="icon iconfont icon-fanhuijiantou"></view>
+    <text class="science">{{science}}</text>
+    <view class="iconf iconfont icon-sanhengxian"></view>
+  </view>
+  <view class="details">
+    <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+      <view class="details-title">
+        <image class="details-future" src="{{item.touxiang}}"></image>
+        <view class="details-right">
+          <view class="end-top clear">
+            <text class="details-name">{{item.bookname}}</text>
+            <text class="dian iconfont icon-sandian"></text>
+            <text class="writer-details">{{item.writername}}</text>
+          </view>
+          <view class="writer-about">{{item.about}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
