@@ -4,6 +4,11 @@ Page({
   /**
    * 页面的初始数据
    */
+  homepage: function() {
+    wx.switchTab({
+      url: '../homepage/homepage',
+    })
+  },
   data: {
     science: '科幻',
     list2: []

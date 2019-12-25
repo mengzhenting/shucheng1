@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/fiction/fiction",
+    "pages/comment/comment",
     "pages/explore/explore",
+    "pages/fiction/fiction",
     "pages/homepage/homepage",
     "pages/index/index",
     "pages/logs/logs"
@@ -26,12 +27,12 @@
         "selectedIconPath": "img/images/diqiu1.png"
       },
       {
-        "pagePath": "pages/fiction/fiction",
+        "pagePath": "pages/explore/explore",
         "iconPath": "img/images/shouye.png",
         "selectedIconPath": "img/images/shouye1.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/comment/comment",
         "iconPath": "img/images/shu.png",
         "selectedIconPath": "img/images/shu1.png"
       },

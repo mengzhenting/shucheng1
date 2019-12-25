@@ -1,6 +1,6 @@
 <view class="home">
   <view class="top">
-    <view class="icon iconfont icon-fanhuijiantou"></view>
+    <view bindtap="homepage" class="icon iconfont icon-fanhuijiantou"></view>
     <text class="science">{{science}}</text>
     <view class="iconf iconfont icon-sanhengxian"></view>
   </view>

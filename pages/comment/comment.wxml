@@ -1,0 +1,64 @@
+<view class="hand">
+  <view class="return">
+    <text class="icon iconfont icon-fanhuijiantou"></text>
+  </view>
+  <view class="details-title">
+    <image class="details-future" src="{{ img }}"></image>
+    <view class="details-right">
+      <view class="end-top clear">
+        <text class="details-name">{{ bookname }}</text>
+        <text class="writer-details">{{writername}}</text>
+      </view>
+      <view class="writer-about">{{about}}</view>
+      <block wx:for="{{icon}}" wx:key="index">
+        <text class="{{item.iconf}} icons"></text>
+      </block>
+      <text class="number">{{number}}</text>
+    </view>
+  </view>
+  <view class="mode-all">
+    <block wx:for="{{mode}}" wx:key="index">
+      <text class="function">
+      <text class="{{item.heart}} hear"></text>
+      <text class="collection">{{item.collection}}</text>
+      </text>
+    </block>
+  </view>
+  <view class="book-details">
+    <view class="details">{{details}}</view>
+    <view class="title">{{title}}</view>
+  </view>
+  <view class="catalog-see">
+    <text class="catalog">{{catalog}}</text>
+    <text class="{{arrow}} arrow"></text>
+  </view>
+  <view class="comment">
+    <view class="comment-top clear">
+      <text class="discuss">{{ discuss }}</text>
+      <text class="several;">{{several}}</text>
+      <text class="{{shu}} shu"></text>
+    </view>
+    <view class="comment-content">
+      <view class="portrait">
+        <image class="img1" src="{{img1}}"></image>
+        <text class="name1">{{name1}}</text>
+      </view>
+      <view class="comment-center">
+        <text class="content">{{content}}</text>
+        <view class="comment-bottom">
+          <text class="time">{{time}}</text>
+          <view>
+            <block wx:for="{{times}}" wx:key="index">
+              <text class="{{item.fabulous}} chart"></text>
+              <text class="numbers">{{item.numbers}}</text>
+            </block>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="buy">
+    <text class="try-see">{{trysee}}</text>
+    <text class="purchase">{{purchase}}</text>
+  </view>
+</view>

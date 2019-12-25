@@ -32,7 +32,7 @@
   color: #9da3b4;
   position: absolute;
   top: 35rpx;
-  left: 85rpx;
+  left: 36rpx;
 }
 
 .search {
@@ -40,8 +40,9 @@
   width: 650rpx;
   background-color: #2d353d;
   border-radius: 50rpx;
+  color: #fff;
   margin: 0 auto;
-  text-indent: 80rpx;
+  padding-left: 80rpx;
 }
 
 .classification {

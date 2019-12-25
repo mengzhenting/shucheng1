@@ -4,6 +4,12 @@ Page({
   /**
    * 页面的初始数据
    */
+  longpress: function() {
+    wx.navigateTo({
+      url: '../fiction/fiction',
+    })
+    console.log(1)
+  },
   data: {
     search: '热门搜索',
     labArr: ['2018排行榜', '职场热门', '都市言情', '哈佛大学经济管理类', '领导才能'],
@@ -66,9 +72,12 @@ Page({
       },
     })
     //随机颜色
-    colorArr: this.data.colorArr.sort((a, b) => {
-      return Math.random() - 0.5
+    this.setData({
+      colorArr: this.data.colorArr.sort((a, b) => {
+        return Math.random() - 0.5
+      })
     })
+
     // let that = this,
     //   labLen = that.data.labArr.length,
     //   colorArr = that.data.colorArr,

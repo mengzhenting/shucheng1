@@ -10,17 +10,140 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .icon {
   color: #fff;
   font-size: 35rpx;
 }
-.explore{
+
+.explore {
   color: #fff;
   font-size: 35rpx;
   padding-left: 84rpx;
 }
-.iconf {
-  color: #fff;
-  font-size: 35rpx;
+.fang{
   padding-left: 20rpx;
+}
+.icons {
+  color: #71768c;
+  font-size: 35rpx;
+}
+
+.bottom {
+  padding: 0 40rpx;
+  margin-right: -30rpx;
+  box-sizing: border-box;
+}
+.all{
+  float: left;
+  margin-right: 30rpx;
+}
+
+.img {
+  width: 270rpx;
+  height: 400rpx;
+  border-radius: 20rpx;
+  padding-top: 80rpx;
+}
+
+.title {
+  text-align: center;
+  padding-top: 10rpx;
+  width: 270rpx;
+}
+
+.book-name {
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.imgs {
+  text-align: center;
+}
+
+.t {
+  width: 90rpx;
+  height: 60rpx;
+  padding:20rpx 0 120rpx 0;
+}
+
+
+
+
+
+.book-santi {
+  text-align: center;
+  padding-top: 80rpx;
+}
+
+.santi {
+  width: 390rpx;
+  height: 580rpx;
+}
+.book-names{
+  width: 390rpx;
+  margin: 0 auto;
+  border-bottom: 2rpx solid #71768c;
+  padding-top: 20rpx;
+  padding-bottom: 50rpx;
+  
+}
+.names {
+  display: block;
+}
+.read{
+  text-align: center;
+  padding-top: 50rpx;
+}
+.read-img{
+  width: 70rpx;
+  height: 70rpx;
+}
+.book-number{
+   text-align: center;
+  padding-top: 35rpx;
+  padding-bottom: 70rpx;
+}
+.book-bottom{
+  text-align: center;
+  padding-bottom: 120rpx;
+}
+.bottom-img{
+width: 85rpx;
+height: 50rpx;
+}
+.right-img{
+  width: 240rpx;
+  height: 85rpx;
+  position: fixed;
+  right: 0;
+  bottom: 100rpx;
+  display: flex;
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+  background-color: #15191D;
+  border-top-left-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+}
+.right{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.dong{
+  display: block;
+  font-size: 30rpx;
+  color: #fff;
+}
+.recommend{
+  display: block;
+  font-size: 30rpx;
+  color: #71768c;
+}
+.block{
+  display: block;
+}
+.none{
+  display: none;
 }

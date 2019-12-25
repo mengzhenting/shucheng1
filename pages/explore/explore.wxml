@@ -3,8 +3,50 @@
     <text></text>
     <text class="explore">{{explore}}</text>
     <view class="explore-right">
-      <text class="icon iconfont icon-sifangkuai"></text>
-      <text class="iconf iconfont icon-fangkuai"></text>
+      <text bindtap="handler" class="{{hand1 ? 'iconfont icon-sifangkuai icon' : 'iconfont icon-sifangkuai icons'}}"></text>
+      <text bindtap="handler1" class="{{hand2 ? 'iconfont icon-fangkuai fang icon' : 'iconfont icon-fangkuai fang icons'}}"></text>
+    </view>
+  </view>
+  <view class="{{hand1 ? 'block' : 'none'}}">
+    <view class="bottom">
+      <block wx:for="{{img}}" wx:key="index">
+        <view class="all">
+          <image class="img" src="{{item.src}}"></image>
+          <view class="title">
+            <text class="book-name">{{item.title}}</text>
+          </view>
+        </view>
+      </block>
+      <view class="imgs">
+        <image class="t" src="../../img/images/images/tansuo2_14.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="{{hand2 ? 'block' : 'none'}}">
+    <view class="book-santi">
+      <image class="santi" src="../../img/images/images/tansuo2_3.png"></image>
+      <view class="book-names">
+        <text class="book">{{bookname}}</text>
+        <text class="names">{{name}}</text>
+      </view>
+    </view>
+    <view class="read">
+      <block class="read-book" wx:for="{{imgs}}" wx:key="index">
+        <image class="read-img" src="{{item.src}}"></image>
+      </block>
+    </view>
+    <view class="book-number">
+      <text class="number">{{number}}</text>
+    </view>
+    <view class="book-bottom">
+      <image class="bottom-img" src="../../img/images/images/tansuo2_14.png"></image>
+    </view>
+    <view class="right-img">
+      <image class="right" src="../../img/images/images/tansuo1_9.png"></image>
+      <view>
+        <text class="dong">{{dong}}</text>
+        <text class="recommend">{{recommend}}</text>
+      </view>
     </view>
   </view>
 </view>
