@@ -1,6 +1,6 @@
 .home {
   background-color: #21272e;
-  padding: 0 50rpx;
+  padding: 100rpx 50rpx 0 50rpx;
 }
 
 .top {

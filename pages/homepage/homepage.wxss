@@ -3,10 +3,11 @@
 .home {
   background-color: #21272e;
   padding-left: 50rpx;
+  padding-top: 40rpx;
 }
 
 .top {
-  height: 100rpx;
+  height: 120rpx;
   width: 650rpx;
   margin: 0 auto;
   line-height: 100rpx;
@@ -41,7 +42,7 @@
   background-color: #2d353d;
   border-radius: 50rpx;
   color: #fff;
-  margin: 0 auto;
+  box-sizing: border-box;
   padding-left: 80rpx;
 }
 
@@ -61,12 +62,13 @@
 
 .see {
   color: #a2a8ba;
-  font-size: 24rpx;
+  font-size: 30rpx;
 }
 
 .arrow {
   color: #a2a8ba;
-  font-size: 24rpx;
+  font-size: 60rpx;
+  vertical-align: middle;
 }
 
 .whole {

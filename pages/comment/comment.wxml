@@ -1,6 +1,6 @@
 <view class="hand">
   <view class="return">
-    <text class="icon iconfont icon-fanhuijiantou"></text>
+    <text bindtap="icon" class="icon iconfont icon-fanhuijiantou"></text>
   </view>
   <view class="details-title">
     <image class="details-future" src="{{ img }}"></image>
@@ -17,12 +17,18 @@
     </view>
   </view>
   <view class="mode-all">
-    <block wx:for="{{mode}}" wx:key="index">
-      <text class="function">
-      <text class="{{item.heart}} hear"></text>
-      <text class="collection">{{item.collection}}</text>
-      </text>
-    </block>
+      <view class="function">
+        <text bindtap="aa" class="{{item ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+      <text class="collection">{{collec}}</text>
+      </view>
+      <view class="function">
+        <text bindtap="bb" class="iconfont icon-fenxiang hear"></text>
+      <text class="collection">{{collection}}</text>
+      </view>
+      <view class="function">
+        <text bindtap="cc" class="iconfont icon-shu1 hear"></text>
+      <text class="collection">{{collecs}}</text>
+      </view>
   </view>
   <view class="book-details">
     <view class="details">{{details}}</view>
@@ -48,10 +54,10 @@
         <view class="comment-bottom">
           <text class="time">{{time}}</text>
           <view>
-            <block wx:for="{{times}}" wx:key="index">
-              <text class="{{item.fabulous}} chart"></text>
-              <text class="numbers">{{item.numbers}}</text>
-            </block>
+              <text bindtap="aa" class="{{item ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+              <text class="numbers">{{numbers}}</text>
+              <text class="iconfont icon-pinglun chart"></text>
+              <text class="numbers">{{num}}</text>
           </view>
         </view>
       </view>

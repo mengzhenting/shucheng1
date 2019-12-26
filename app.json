@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/personal/personal",
+    "pages/author/author",
+    "pages/homepage/homepage",
+    "pages/bookshelf/bookshelf",
     "pages/comment/comment",
     "pages/explore/explore",
     "pages/fiction/fiction",
-    "pages/homepage/homepage",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -12,7 +15,8 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true,
-    "onReachBottomDistance": 10000
+    "onReachBottomDistance": 10000,
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
@@ -32,12 +36,12 @@
         "selectedIconPath": "img/images/shouye1.png"
       },
       {
-        "pagePath": "pages/comment/comment",
+        "pagePath": "pages/bookshelf/bookshelf",
         "iconPath": "img/images/shu.png",
         "selectedIconPath": "img/images/shu1.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/personal/personal",
         "iconPath": "img/images/wodedangxuan.png",
         "selectedIconPath": "img/images/wodedangxuan1.png"
       }

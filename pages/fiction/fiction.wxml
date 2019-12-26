@@ -2,7 +2,7 @@
   <view class="top">
     <view bindtap="homepage" class="icon iconfont icon-fanhuijiantou"></view>
     <text class="science">{{science}}</text>
-    <view class="iconf iconfont icon-sanhengxian"></view>
+    <view class="iconf"></view>
   </view>
   <view class="details">
     <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">

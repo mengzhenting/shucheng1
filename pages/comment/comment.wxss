@@ -4,6 +4,8 @@
   padding-left: 50rpx;
   background-color: #21272e;
   position: relative;
+  margin-bottom: 158rpx;
+   padding-top: 40rpx;
 }
 
 .return {
@@ -93,9 +95,11 @@ justify-content: space-between;
 
 .hear {
   margin-right: 20rpx;
+  color: #71768c;
 }
 
 .heart {
+  margin-right: 20rpx;
   color: #ec392f;
 }
 

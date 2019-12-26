@@ -4,52 +4,39 @@ Page({
   /**
    * 页面的初始数据
    */
+  icon: function() {
+    wx.switchTab({
+      url: '../homepage/homepage',
+    })
+  },
   data: {
-    trysee:'试看',
-    purchase:'购买',
-    img1:'../../img/images/images/tansuo1_3.png',
-    name1:'你个废物',
-    content:'十万年前，地球上至少有六种不同的人但今日，世界舞台为什么只剩下了我们自己？从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人，从雪维洞穴壁上的原始人手印，到阿姆斯壮踩上月球的脚印，',
-    time:'12-04 21:20',
-    times:[
-      {
-        fabulous:'iconfont icon-xinaixin1',
-        numbers:'134'
-      },
-      {
-        fabulous: 'iconfont icon-pinglun',
-        numbers: '89'
-      }
-    ],
-    shu:'iconfont icon-shuxiecopy',
-    discuss:'评论',
-    several:'215条评论',
-    catalog:'查看详情',
-    arrow:'iconfont icon-arrow-right',
-    details:'详情',
-    title:'十万年前，地球上至少有六种不同的人但今日，世界舞台为什么只剩下了我们自己？\n从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人，\n从雪维洞穴壁上的原始人手印，到阿姆斯壮踩上月球的脚印，',
+    trysee: '试看',
+    purchase: '购买',
+    img1: '../../img/images/images/tansuo1_3.png',
+    name1: '你个废物',
+    content: '十万年前，地球上至少有六种不同的人但今日，世界舞台为什么只剩下了我们自己？从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人，从雪维洞穴壁上的原始人手印，到阿姆斯壮踩上月球的脚印，',
+    time: '12-04 21:20',
+    numbers: '134',
+    num: '89',
+
+    shu: 'iconfont icon-shuxiecopy',
+    discuss: '评论',
+    several: '215条评论',
+    catalog: '查看详情',
+    arrow: 'iconfont icon-arrow-right',
+    details: '详情',
+    title: '十万年前，地球上至少有六种不同的人但今日，世界舞台为什么只剩下了我们自己？\n从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人，\n从雪维洞穴壁上的原始人手印，到阿姆斯壮踩上月球的脚印，',
     img: '../../img/images/images/tansuo2_9.png',
     bookname: '三体：死神永生',
     writername: '作者：刘慈心',
     about: '十万年前，地球上至少有六种不同的人但今日，世界舞台为什么只剩下了我们自己？\n从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人，\n从雪维洞穴壁上的原始人手印，到阿姆斯壮踩上月球的脚印，',
-    number:'5.6',
-    mode:[
-      {
-        heart:'heart iconfont icon-xinaixin1',
-        collection:'收藏'
-      },
-      {
-        heart: 'iconfont icon-fenxiang',
-        collection: '分享'
-      },
-      {
-        heart: 'iconfont icon-shu1',
-        collection: '放入书架'
-      }
-    ],
-    icon:[
-      {
-        iconf:'iconfont icon-wujiaoxingxingxingshoucang'
+    number: '5.6',
+    item: true,
+    collec: '收藏',
+    collection: '分享',
+    collecs: '放入书架',
+    icon: [{
+        iconf: 'iconfont icon-wujiaoxingxingxingshoucang'
       },
       {
         iconf: 'iconfont icon-wujiaoxingxingxingshoucang'
@@ -65,7 +52,11 @@ Page({
       }
     ]
   },
-
+  aa: function() {
+    this.setData({
+      item: !this.data.item
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

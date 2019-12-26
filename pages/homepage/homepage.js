@@ -10,6 +10,16 @@ Page({
     })
     console.log(1)
   },
+  details: function() {
+    wx.navigateTo({
+      url: '../comment/comment',
+    })
+  },
+  authors: function() {
+    wx.navigateTo({
+      url: '../author/author',
+    })
+  },
   data: {
     search: '热门搜索',
     labArr: ['2018排行榜', '职场热门', '都市言情', '哈佛大学经济管理类', '领导才能'],

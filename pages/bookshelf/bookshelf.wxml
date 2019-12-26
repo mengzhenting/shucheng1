@@ -1,0 +1,54 @@
+<view class="head">
+  <view class="shelf">
+    <text class="bookshelf">{{bookshelf}}</text>
+  </view>
+  <view class="release">
+    <view class="classification">
+      <text class="ranking">{{rank2}}</text>
+      <view>
+        <text class="see">{{all}}</text>
+        <text class="arrow iconfont icon-arrow-right"></text>
+      </view>
+    </view>
+    <view class="new">
+      <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+        <view class="works">
+          <image class="future" src="{{item.touxiang}}"></image>
+          <text class="book-name">{{item.bookname}}</text>
+          <text class="writer-name">{{item.writername}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="release">
+    <view class="classification">
+      <text class="ranking">{{rank1}}</text>
+      <view>
+        <text class="see">{{all}}</text>
+        <text class="arrow iconfont icon-arrow-right"></text>
+      </view>
+    </view>
+    <view class="new">
+      <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+        <view class="works">
+          <image class="future" src="{{item.touxiang}}"></image>
+          <text class="book-name">{{item.bookname}}</text>
+          <text class="writer-name">{{item.writername}}</text>
+        </view>
+      </block>
+
+    </view>
+    <view class="new">
+      <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+        <view class="works">
+          <image class="future" src="{{item.touxiang}}"></image>
+          <text class="book-name">{{item.bookname}}</text>
+          <text class="writer-name">{{item.writername}}</text>
+        </view>
+      </block>
+
+    </view>
+  </view>
+
+
+</view>

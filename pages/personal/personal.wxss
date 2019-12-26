@@ -1,0 +1,168 @@
+.head {
+  padding: 40rpx 50rpx 0 50rpx;
+  background-color: #21272e;
+}
+
+.my-hand {
+  height: 100rpx;
+  text-align: center;
+}
+
+.my {
+  color: #fff;
+  line-height: 100rpx;
+}
+
+.information {
+  height: 160rpx;
+  padding-right: 50rpx;
+}
+
+.img {
+  height: 150rpx;
+  width: 150rpx;
+  float: left;
+}
+
+.li {
+  margin-left: 190rpx;
+}
+
+.name {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.address {
+  color: #b5b7c5;
+  display: block;
+}
+
+.my-share {
+  height: 60rpx;
+  width: 180rpx;
+  border: 1rpx solid #b5b7c5;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+  float: right;
+}
+
+.icon {
+  color: #b5b7c5;
+  font-size: 30rpx;
+  padding-right: 10rpx;
+}
+
+.share {
+  color: #b5b7c5;
+}
+
+.number {
+  height: 90rpx;
+  background-color: #2b323b;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+}
+
+.follow {
+  width: 217rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2rpx solid #71768c;
+}
+
+.follow1 {
+  width: 217rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  display: block;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.list-follow {
+  display: block;
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+.fans{
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+.like{
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+
+.classification {
+  width: 700rpx;
+  height: 140rpx;
+  margin: 0 auto;
+  line-height: 140rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #71768c;
+}
+
+.ranking {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.see {
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+
+.arrow {
+  color: #a2a8ba;
+  font-size: 60rpx;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+
+.news {
+  color: #a2a8ba;
+  font-size: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50rpx;
+  background-color: #fb6894;
+  border-radius: 50%;
+}
+
+.balance {
+  color: #fb6894;
+}
+
+.tt {
+  height: 200rpx;
+  position: relative;
+}
+
+.t5 {
+  height: 50rpx;
+  width: 75rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

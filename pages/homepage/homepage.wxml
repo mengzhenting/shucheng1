@@ -2,7 +2,7 @@
 <view class="home">
   <view class="top clear">
     <view class="icon iconfont icon-jiangbei"></view>
-    <view class="iconf iconfont icon-sanhengxian"></view>
+    <!-- <view class="iconf iconfont icon-sanhengxian"></view> -->
   </view>
   <view class="shu">
     <text class="iconfo iconfont icon-search"></text>
@@ -12,7 +12,7 @@
     <view class="classification">
       <text class="ranking">{{rank}}</text>
       <view>
-        <text class="see" bindtap="longpress">{{all}}</text>
+        <text class="see">{{all}}</text>
         <text class="arrow iconfont icon-arrow-right"></text>
       </view>
     </view>
@@ -20,7 +20,7 @@
       <swiper class="classification-bottom" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
         <block wx:for="{{list}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
           <swiper-item class="swi">
-            <image class="imgs" src="{{item.touxiang}}"></image>
+            <image bindtap="longpress" class="imgs" src="{{item.touxiang}}"></image>
             <text class="type">{{item.type}}</text>
           </swiper-item>
         </block>
@@ -30,7 +30,7 @@
   <view class="author">
     <view class="classification">
       <text class="ranking">{{rank1}}</text>
-      <view>
+      <view bindtap="authors">
         <text class="see">{{all}}</text>
         <text class="arrow iconfont icon-arrow-right"></text>
       </view>
@@ -55,10 +55,10 @@
       </view>
     </view>
     <view class="new">
-      <swiper class="new-release" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <swiper class="new-release" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}"> 
         <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
           <swiper-item class="works">
-            <image class="future" src="{{item.touxiang}}"></image>
+            <image bindtap="details" class="future" src="{{item.touxiang}}"></image>
             <text class="book-name">{{item.bookname}}</text>
             <text class="writer-name">{{item.writername}}</text>
           </swiper-item>
