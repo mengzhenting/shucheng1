@@ -1,9 +1,18 @@
 .home {
   background-color: #21272e;
   padding: 100rpx 50rpx 0 50rpx;
+  position: relative;
 }
 
 .top {
+  height: 100rpx;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top1 {
+   padding: 100rpx 50rpx 0 50rpx;
   height: 100rpx;
   width: 650rpx;
   display: flex;
@@ -51,25 +60,17 @@
   padding-top: 10rpx;
   width: 270rpx;
 }
-
+.none-all{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
 .book-name {
   text-align: center;
   font-size: 35rpx;
 }
-
-.imgs {
-  text-align: center;
-}
-
-.t {
-  width: 90rpx;
-  height: 60rpx;
-  padding:20rpx 0 120rpx 0;
-}
-
-
-
-
 
 .book-santi {
   text-align: center;

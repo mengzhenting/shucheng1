@@ -4,6 +4,16 @@ Page({
   /**
    * 页面的初始数据
    */
+  aa:function(){
+    this.setData({
+      none:!this.data.none
+    })
+  },
+  si:function(){
+    this.setData({
+      none: !this.data.none
+    })
+  },
   data: {
     explore: '探索',
     bookname: '三体：死神永生',
@@ -11,6 +21,7 @@ Page({
     number: '457人已阅读',
     dong: '陈小冬',
     recommend: '推荐',
+    none:true,
     imgs: [{
         src: '../../img/images/images/tansuo1_3.png'
       },

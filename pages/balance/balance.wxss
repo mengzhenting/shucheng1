@@ -1,0 +1,58 @@
+.head {
+  padding: 100rpx 50rpx 0 50rpx;
+  background-color: #21272e;
+  position: relative;
+}
+
+.my-hand {
+  height: 100rpx;
+  display: flex;
+  margin-bottom: 50rpx;
+  justify-content: space-between;
+}
+
+.my {
+  color: #fff;
+  font-size: 50rpx;
+  line-height: 100rpx;
+}
+
+.ico {
+  color: #fff;
+  line-height: 100rpx;
+  font-size: 40rpx;
+}
+
+.frame {
+  height: 320rpx;
+  background-color: #2b323b;
+  border-radius: 30rpx;
+  padding: 60rpx 50rpx;
+  box-sizing: border-box;
+}
+
+.my-balance {
+  color: #75808d;
+  font-size: 50rpx;
+}
+
+.money {
+  color: #fff;
+  font-size: 100rpx;
+}
+
+.log {
+  height: 140rpx;
+  width: 100%;
+  margin: 0 -50rpx;
+  background-color: #fb6894;
+  text-align: center;
+  line-height: 140rpx;
+  position: fixed;
+  bottom: 0;
+}
+
+.login {
+  color: #fff;
+  font-size: 40rpx;
+}

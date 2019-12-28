@@ -1,42 +1,38 @@
-// pages/personal/personal.js
+// pages/recharge/recharge.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  install:function(){
-    wx.navigateTo({
-      url: '../install/install',
-    })
-  },
-  account:function(){
+  etc: function() {
     wx.navigateTo({
       url: '../balance/balance',
     })
   },
   data: {
-    ico:'ico iconfont icon-shezhi',
-    img: '../../img/images/images/tansuo1_3.png',
-    src: '../../img/images/images/tansuo2_14.png',
-    icon:'icon iconfont icon-fenxiang',
-    my: '我的',
-    share:'分享',
-    name:'李雪玲',
-    address:'中国 · 襄阳',
-    list:'8888',
-    list1:'8888',
-    list2:'8888',
-    follow:'关注',
-    fans:'粉丝',
-    like:'喜欢',
-    rank2:'个人信息',
-    rank3:'我的信息',
-    rank4:'账户余额',
-    rank5:'我的评论',
-    balance:'8888.00',
-    news:'6'
+    aa: true,
+    my: '充值',
+    ico: 'iconfont ico icon-fanhuijiantou',
+    aa: 'iconfont iconf icon-chahao',
+    balance: '我的余额(元)',
+    money: '',
+    login: '下一步',
+    balance: '确认支付(元)',
+    money: '250.00',
+    rank: '订单信息',
+    rank1: '付款方式',
+    arrow1: '中国银行(0288)',
+    arrow: '充值',
+    verification: '指纹验证或',
+    password: '输入密码',
+    wen: 'wen iconfont icon-zhiwen',
+    hiddenName: true
   },
-
+  block: function() {
+    this.setData({
+      hiddenName: !this.data.hiddenName
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

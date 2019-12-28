@@ -1,0 +1,63 @@
+<view class="hand">
+  <view class="comment">
+    <view class="comment-top">
+      <text class="{{ discuss }}" bindtap="return"></text>
+      <text class="several">{{several}}</text>
+      <text class="{{shu}} shu"></text>
+    </view>
+    <view class="comment-content">
+      <view class="portrait">
+        <image class="img1" src="{{img1}}"></image>
+        <text class="name1">{{name1}}</text>
+      </view>
+      <view class="comment-center">
+        <text class="content">{{content}}</text>
+        <view class="comment-bottom">
+          <text class="time">{{time}}</text>
+          <view>
+            <text bindtap="aa" class="{{item ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+            <text class="numbers">{{numbers}}</text>
+            <text class="iconfont icon-pinglun chart"></text>
+            <text class="numbers">{{num}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+     <view class="comment-content">
+      <view class="portrait">
+        <image class="img1" src="{{img1}}"></image>
+        <text class="name1">{{name1}}</text>
+      </view>
+      <view class="comment-center">
+        <text class="content">{{content}}</text>
+        <view class="comment-bottom">
+          <text class="time">{{time}}</text>
+          <view>
+            <text bindtap="bb" class="{{item1 ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+            <text class="numbers">{{numbers}}</text>
+            <text class="iconfont icon-pinglun chart"></text>
+            <text class="numbers">{{num}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+     <view class="comment-content">
+      <view class="portrait">
+        <image class="img1" src="{{img1}}"></image>
+        <text class="name1">{{name1}}</text>
+      </view>
+      <view class="comment-center">
+        <text class="content">{{content}}</text>
+        <view class="comment-bottom">
+          <text class="time">{{time}}</text>
+          <view>
+            <text bindtap="cc" class="{{item2 ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+            <text class="numbers">{{numbers}}</text>
+            <text class="iconfont icon-pinglun chart"></text>
+            <text class="numbers">{{num}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

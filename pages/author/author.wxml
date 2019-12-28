@@ -5,30 +5,26 @@
     <view class="iconf"></view>
   </view>
   <view class="ranking">
-    <view class="release">
-      <view class="new">
-        <view class="works">
-          <text class="icon2 icon5 iconfont icon-huangguan"></text>
-          <image class="future" src="../../img/images/images/tansuo1_3.png"></image>
-          <text class="icon4 icon2 iconfont icon-2-copy"></text>
-          <text class="icon2">余秋雨</text>
-          <text class="writer-name">8888粉丝</text>
-        </view>
-        <view class="works">
-          <text class="icon1 icon6 iconfont icon-huangguan"></text>
-          <image class="future1" src="../../img/images/images/tansuo1_3.png"></image>
-          <text class="icon1 icon7 iconfont icon-1"></text>
-          <text class="icon1">余秋雨</text>
-          <text class="writer-name">8888粉丝</text>
-        </view>
-        <view class="works">
-          <text class="icon3 icon8 iconfont icon-huangguan"></text>
-          <image class="future" src="../../img/images/images/tansuo1_3.png"></image>
-          <text class="icon3 icon9 iconfont icon-icon3"></text>
-          <text class="icon3">余秋雨</text>
-          <text class="writer-name">8888粉丝</text>
-        </view>
-      </view>
+    <view class="works">
+      <text class="icon2 icon5 iconfont icon-huangguan"></text>
+      <image class="future" src="../../img/images/images/tansuo1_3.png"></image>
+      <text class="icon4 icon2 iconfont icon-2-copy"></text>
+      <text class="icon2">余秋雨</text>
+      <text class="writer-name">8888粉丝</text>
+    </view>
+    <view class="works">
+      <text class="icon1 icon6 iconfont icon-huangguan"></text>
+      <image bindtap="first" class="future1" src="../../img/images/images/tansuo1_3.png"></image>
+      <text class="icon1 icon7 iconfont icon-1"></text>
+      <text class="icon1">余秋雨</text>
+      <text class="writer-name">8888粉丝</text>
+    </view>
+    <view class="works">
+      <text class="icon3 icon8 iconfont icon-huangguan"></text>
+      <image class="future" src="../../img/images/images/tansuo1_3.png"></image>
+      <text class="icon3 icon9 iconfont icon-icon3"></text>
+      <text class="icon3">余秋雨</text>
+      <text class="writer-name">8888粉丝</text>
     </view>
 
   </view>
@@ -74,11 +70,11 @@
       </swiper>
     </view>
   </view>
-   <view class="classification">
-      <text class="rank">{{rank2}}</text>
-      <view>
-        <text class="see">{{all}}</text>
-        <text class="arrow iconfont icon-arrow-right"></text>
-      </view>
+  <view class="classification">
+    <text class="rank">{{rank2}}</text>
+    <view>
+      <text class="see">{{all}}</text>
+      <text class="arrow iconfont icon-arrow-right"></text>
     </view>
+  </view>
 </view>

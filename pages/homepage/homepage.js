@@ -4,6 +4,11 @@ Page({
   /**
    * 页面的初始数据
    */
+  classify:function(){
+wx.navigateTo({
+  url: '../classification/classification',
+})
+  },
   longpress: function() {
     wx.navigateTo({
       url: '../fiction/fiction',

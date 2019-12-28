@@ -1,0 +1,88 @@
+.hand{
+   padding-left: 50rpx;
+  background-color: #21272e;
+  padding-top: 80rpx;
+}
+.comment {
+  padding-right: 40rpx;
+  border-bottom: 2rpx solid #767d97;
+}
+.comment-content{
+  background-color: #21272e;
+}
+.hear{
+  color: #868dab;
+}
+.heart{
+  color: #fa0a1e;
+}
+.comment-top {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discuss {
+  font-size: 30rpx;
+  color: #fff;
+  line-height: 150rpx;
+}
+
+.several {
+  line-height: 150rpx;
+  font-size: 40rpx;
+  color: #fff;
+  /* padding-left: 40rpx; */
+}
+
+.shu {
+  color: #fff;
+  font-size: 45rpx;
+  line-height: 150rpx;
+}
+
+.portrait {
+  height: 80rpx;
+  padding-top: 50rpx;
+}
+
+.img1 {
+  height: 70rpx;
+  width: 70rpx;
+  vertical-align: middle;
+}
+
+.name1 {
+  color: #fff;
+  padding-left: 25rpx;
+}
+
+.comment-center {
+  padding-left: 95rpx;
+}
+
+.content {
+  color: #868dab;
+}
+
+.comment-bottom {
+  height: 100rpx;
+  display: flex;
+  padding-top: 20rpx;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #767d97;
+}
+
+.time {
+  color: #71768c;
+}
+
+.chart {
+  color: #71768c;
+  padding-left: 30rpx;
+}
+
+.numbers {
+  color: #71768c;
+  padding-left: 15rpx;
+}

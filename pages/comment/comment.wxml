@@ -17,18 +17,18 @@
     </view>
   </view>
   <view class="mode-all">
-      <view class="function">
-        <text bindtap="aa" class="{{item ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+    <view class="function">
+      <text bindtap="aa" class="{{item ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
       <text class="collection">{{collec}}</text>
-      </view>
-      <view class="function">
-        <text bindtap="bb" class="iconfont icon-fenxiang hear"></text>
+    </view>
+    <view bindtap="bb" class="function">
+      <text class="iconfont icon-fenxiang hear"></text>
       <text class="collection">{{collection}}</text>
-      </view>
-      <view class="function">
-        <text bindtap="cc" class="iconfont icon-shu1 hear"></text>
+    </view>
+    <view bindtap="cc" class="function">
+      <text class="iconfont icon-shu1 hear"></text>
       <text class="collection">{{collecs}}</text>
-      </view>
+    </view>
   </view>
   <view class="book-details">
     <view class="details">{{details}}</view>
@@ -41,7 +41,7 @@
   <view class="comment">
     <view class="comment-top clear">
       <text class="discuss">{{ discuss }}</text>
-      <text class="several;">{{several}}</text>
+      <text bindtap="all" class="several">{{several}}</text>
       <text class="{{shu}} shu"></text>
     </view>
     <view class="comment-content">
@@ -54,10 +54,10 @@
         <view class="comment-bottom">
           <text class="time">{{time}}</text>
           <view>
-              <text bindtap="aa" class="{{item ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
-              <text class="numbers">{{numbers}}</text>
-              <text class="iconfont icon-pinglun chart"></text>
-              <text class="numbers">{{num}}</text>
+            <text bindtap="dd" class="{{items ? 'iconfont icon-xinaixin1 hear' : 'iconfont icon-xinaixin1 heart'}}"></text>
+            <text class="numbers">{{numbers}}</text>
+            <text class="iconfont icon-pinglun chart"></text>
+            <text class="numbers">{{num}}</text>
           </view>
         </view>
       </view>
@@ -65,6 +65,28 @@
   </view>
   <view class="buy">
     <text class="try-see">{{trysee}}</text>
-    <text class="purchase">{{purchase}}</text>
+    <text bindtap="mai" class="purchase">{{purchase}}</text>
+  </view>
+  <view class="mode" hidden="{{share}}">
+    <view class="can">
+      <text bindtap="bb" class="{{cancel}}"></text>
+    </view>
+    <view class="fen">
+      <image class="xiang" src="../../img/images/images/fenxiang_3.png"></image>
+      <image class="xiang" src="../../img/images/images/fenxiang_5.png"></image>
+      <image class="xiang" src="../../img/images/images/fenxiang_7.png"></image>
+      <image class="xiang" src="../../img/images/images/fenxiang_3.png"></image>
+    </view>
+  </view>
+  <view class="back" hidden="{{add}}">
+    <view class="shelves">
+      <image class="picture" src="{{picture}}"></image>
+      <view class="typeface">
+        <text class="describe">{{describe}}</text>
+      </view>
+      <view bindtap="cc" class="hao">
+        <text class="well">{{well}}</text>
+      </view>
+    </view>
   </view>
 </view>

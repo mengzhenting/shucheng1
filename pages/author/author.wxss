@@ -30,17 +30,11 @@
 .ranking {
   height: 470rpx;
   border-bottom: 2rpx solid #5d637c;
-}
-
-.new {
   width: 650rpx;
-  height: 470rpx;
   display: flex;
   justify-content: space-between;
 }
-
 .works {
-  width: 160rpx;
   height: 470rpx;
   display: flex;
   position: relative;
@@ -101,7 +95,7 @@
   border: 2rpx solid #fff;
   border-radius: 50%;
   position: absolute;
-  top: 233rpx;
+  top: 222rpx;
   background-color: #fff;
 }
 .future {

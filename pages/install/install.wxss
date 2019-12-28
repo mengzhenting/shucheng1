@@ -1,0 +1,90 @@
+.head {
+  padding: 100rpx 50rpx 0 50rpx;
+  background-color: #21272e;
+position: relative;
+}
+
+.my-hand {
+  height: 100rpx;
+  display: flex;
+  margin-bottom: 50rpx;
+  justify-content: space-between;
+}
+
+.my {
+  color: #fff;
+  font-size: 50rpx;
+  line-height: 100rpx;
+}
+
+.ico {
+  color: #fff;
+  line-height: 100rpx;
+  font-size: 40rpx;
+}
+
+.classification {
+  width: 700rpx;
+  height: 140rpx;
+  margin: 0 auto;
+  line-height: 140rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #71768c;
+}
+
+.ranking {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.see {
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+
+.arrow {
+  color: #a2a8ba;
+  font-size: 60rpx;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+
+.switch {
+  width: 100rpx;
+  height: 60rpx;
+  display: block;
+  border-radius: 30rpx;
+  background-color: #fb6894;
+  margin-right: 30rpx;
+}
+
+.switch1 {
+  height: 56rpx;
+  width: 56rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  float: right;
+  margin-top: 2rpx;
+  margin-right: 4rpx;
+}
+
+.cache {
+  color: #fff;
+  font-size: 25rpx;
+}
+.log{
+  height: 140rpx;
+  width: 100%;
+  margin:0 -50rpx;
+  background-color: #2E363F;
+  text-align: center;
+  line-height: 140rpx;
+  position: fixed;
+  bottom: 0;
+}
+.login{
+  color: #DCDEEA;
+  font-size: 40rpx;
+}

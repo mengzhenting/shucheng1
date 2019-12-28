@@ -1,6 +1,21 @@
-<view class="head">
-  <view class="shelf">
-    <text class="bookshelf">{{bookshelf}}</text>
+<view class="home">
+  <view class="top">
+    <view bindtap="home" class="icon iconfont icon-fanhuijiantou"></view>
+    <view class="classify">{{classify}}</view>
+    <view></view>
+  </view>
+  <view class="shu">
+    <text class="iconfo iconfont icon-search"></text>
+    <input class="search" placeholder="搜索..." value=""></input>
+  </view>
+  <view class="type">
+    <swiper class="classification-bottom" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{list}}" wx:key="idx" wx:for-index="idx">
+        <swiper-item class="swi">
+          <text class="type-all">{{item}}</text>
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
   <view class="release">
     <view class="classification">
@@ -20,9 +35,9 @@
       </block>
     </view>
   </view>
-  <view class="release">
+  <view>
     <view class="classification">
-      <text class="ranking">{{rank1}}</text>
+      <text class="ranking">{{rank3}}</text>
       <view>
         <text class="see">{{all}}</text>
         <text class="arrow iconfont icon-arrow-right"></text>
@@ -36,17 +51,6 @@
           <text class="writer-name">{{item.writername}}</text>
         </view>
       </block>
-
-    </view>
-    <view class="new">
-      <block wx:for="{{list2}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
-        <view class="works">
-          <image class="future" src="{{item.touxiang}}"></image>
-          <text class="book-name">{{item.bookname}}</text>
-          <text class="writer-name">{{item.writername}}</text>
-        </view>
-      </block>
-
     </view>
   </view>
 </view>

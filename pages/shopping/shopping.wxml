@@ -1,0 +1,38 @@
+<view class="home">
+  <view class="top">
+    <view bindtap="home" class="icon iconfont icon-fanhuijiantou"></view>
+    <view class="classify">{{classify}}</view>
+    <view></view>
+  </view>
+  <view class="details">
+    <block wx:for="{{list}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+      <view class="details-all clear">
+        <view class="details-title">
+          <image class="details-future" src="{{item.touxiang}}"></image>
+          <view class="details-right">
+            <text class="dian iconfont icon-sandian"></text>
+            <view class="end-top clear">
+              <text class="details-name">{{item.bookname}}</text>
+
+              <text class="writer-details">{{item.writername}}</text>
+            </view>
+            <view class="writer-about">{{item.about}}</view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="money">
+    <view class="total-all">
+      <text class="total">{{total}}</text>
+      <text class="some">{{some}}</text>
+    </view>
+    <view class="surplus">
+      <text class="balance">{{ balance }}</text>
+      <text class="some1">{{some1}}</text>
+    </view>
+  </view>
+  <view class="bom">
+  <text class="purchase">{{purchase}}</text>
+  </view>
+</view>

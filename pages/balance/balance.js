@@ -1,40 +1,25 @@
-// pages/personal/personal.js
+// pages/balance/balance.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  install:function(){
+  recharge:function(){
     wx.navigateTo({
-      url: '../install/install',
+      url: '../recharge/recharge',
     })
   },
-  account:function(){
-    wx.navigateTo({
-      url: '../balance/balance',
+  back:function(){
+    wx.switchTab({
+      url: '../personal/personal',
     })
   },
   data: {
-    ico:'ico iconfont icon-shezhi',
-    img: '../../img/images/images/tansuo1_3.png',
-    src: '../../img/images/images/tansuo2_14.png',
-    icon:'icon iconfont icon-fenxiang',
-    my: '我的',
-    share:'分享',
-    name:'李雪玲',
-    address:'中国 · 襄阳',
-    list:'8888',
-    list1:'8888',
-    list2:'8888',
-    follow:'关注',
-    fans:'粉丝',
-    like:'喜欢',
-    rank2:'个人信息',
-    rank3:'我的信息',
-    rank4:'账户余额',
-    rank5:'我的评论',
-    balance:'8888.00',
-    news:'6'
+    my: '账户余额',
+    ico: 'iconfont ico icon-fanhuijiantou',
+    balance:'我的余额(元)',
+    money:'1234.56',
+    login:'充值'
   },
 
   /**

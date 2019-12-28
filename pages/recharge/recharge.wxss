@@ -1,0 +1,179 @@
+.head {
+  padding: 100rpx 50rpx 0 50rpx;
+  background-color: #21272e;
+  position: relative;
+}
+
+.my-hand {
+  height: 100rpx;
+  display: flex;
+  margin-bottom: 50rpx;
+  justify-content: space-between;
+}
+
+.my {
+  color: #fff;
+  font-size: 50rpx;
+  line-height: 100rpx;
+}
+
+.ico {
+  color: #fff;
+  line-height: 100rpx;
+  font-size: 40rpx;
+}
+
+.frame {
+  height: 320rpx;
+  background-color: #2b323b;
+  border-radius: 30rpx;
+  padding: 60rpx 50rpx;
+  box-sizing: border-box;
+}
+
+.my-balance {
+  color: #75808d;
+  font-size: 50rpx;
+}
+
+.money {
+  color: #fff;
+  font-size: 100rpx;
+  line-height: 120rpx;
+}
+
+.money-number {
+  height: 120rpx;
+  border-bottom: 2rpx solid #75808d;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.yuan {
+  display: inline-block;
+  height: 120rpx;
+  font-size: 80rpx;
+  padding-left: 20rpx;
+  /* line-height: 120rpx; */
+}
+
+.log {
+  height: 140rpx;
+  width: 100%;
+  margin: 0 -50rpx;
+  background-color: #2b323b;
+  text-align: center;
+  line-height: 140rpx;
+  position: fixed;
+  bottom: 0;
+}
+
+.login {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.ground {
+  height: 1624rpx;
+  width: 750rpx;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.verification {
+  height: 800rpx;
+  background-color: #2d353f;
+  width: 100%;
+  margin-left: -50rpx;
+  position: fixed;
+  bottom: 0;
+}
+
+.cha {
+  width: 100%;
+  display: block;
+  height: 90rpx;
+}
+
+.iconf {
+  float: right;
+  line-height: 90rpx;
+  color: #1b1f24;
+  font-size: 40rpx;
+  padding-right: 50rpx;
+}
+
+.frame1 {
+  height: 220rpx;
+  margin-left: 50rpx;
+  box-sizing: border-box;
+}
+
+.my-balance1 {
+  color: #75808d;
+  font-size: 50rpx;
+}
+
+.money1 {
+  color: #fff;
+  font-size: 100rpx;
+}
+
+.classification {
+  width: 650rpx;
+  height: 140rpx;
+  margin: 0 auto;
+  line-height: 140rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #71768c;
+}
+
+.ranking {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.see {
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+
+.arrow {
+  color: #a2a8ba;
+  font-size: 30rpx;
+  vertical-align: middle;
+}
+
+.arrow1 {
+  color: #a2a8ba;
+  font-size: 60rpx;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+
+.fingerprint {
+  height: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+}
+
+.wen {
+  font-size: 80rpx;
+  color: #545f6c;
+  vertical-align: middle;
+}
+
+.verify {
+  font-size: 40rpx;
+  margin-left: 10rpx;
+}
+
+.password {
+  font-size: 40rpx;
+  color: #fb6894;
+  margin-left: 20rpx;
+}

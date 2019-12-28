@@ -1,11 +1,9 @@
-/* pages/comment/comment.wxss */
-
 .hand {
   padding-left: 50rpx;
   background-color: #21272e;
   position: relative;
   margin-bottom: 158rpx;
-   padding-top: 40rpx;
+  padding-top: 40rpx;
 }
 
 .return {
@@ -25,7 +23,6 @@
 
 .details-all {
   margin-top: 40rpx;
-  /* width: 640rpx !important; *//* overflow: visible; */
 }
 
 .details-future {
@@ -83,8 +80,8 @@
   height: 125rpx;
   width: 100%;
   line-height: 125rpx;
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   border-top: 2rpx solid #868dab;
   border-bottom: 2rpx solid #868dab;
 }
@@ -147,7 +144,6 @@ justify-content: space-between;
 .comment {
   height: 630rpx;
   padding-right: 40rpx;
-  border-bottom: 2rpx solid #767d97;
 }
 
 .comment-top {
@@ -220,32 +216,116 @@ justify-content: space-between;
   color: #71768c;
   padding-left: 15rpx;
 }
-.buy{
+
+.buy {
   height: 160rpx;
   width: 100%;
-  background-color: #373A49;
+  background-color: #373a49;
   position: fixed;
   bottom: 0;
   left: 0;
   line-height: 160rpx;
   text-align: center;
 }
-.try-see{
+
+.try-see {
   height: 100rpx;
   display: inline-block;
   width: 215rpx;
   border-radius: 50rpx;
   color: #fff;
   line-height: 100rpx;
-  background-color: #9295A9;
+  background-color: #9295a9;
 }
-.purchase{
+
+.purchase {
   display: inline-block;
   line-height: 100rpx;
   height: 100rpx;
   width: 400rpx;
   color: #fff;
   margin-left: 30rpx;
-  background-color: #FB6894;
+  background-color: #fb6894;
   border-radius: 50rpx;
+}
+
+.mode {
+  height: 340rpx;
+  width: 100%;
+  background-color: #2d353f;
+  position: fixed;
+  bottom: 0;
+  margin-left: -50rpx;
+}
+
+.can {
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: right;
+  padding-right: 50rpx;
+}
+
+.cancel {
+  font-size: 50rpx;
+}
+
+.fen {
+  padding: 50rpx 100rpx 0 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.xiang {
+  height: 80rpx;
+  width: 80rpx;
+}
+.back{
+  width: 750rpx;
+  height: 2012rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  margin-left: -50rpx;
+}
+.shelves{
+  height: 765rpx;
+  width: 550rpx;
+  background-color: #333643;
+  border-radius: 30rpx;
+  position: fixed;
+  top: 15%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translate(20%,25%);
+  padding: 80rpx 65rpx 65rpx 65rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.picture{
+  height: 320rpx;
+  width: 210rpx;
+}
+.typeface{
+  height: 100rpx;
+  text-align: center;
+  padding: 0 20rpx;
+}
+.describe{
+  color: #fff;
+  font-size: 40rpx;
+}
+.hao{
+  width: 420rpx;
+  height: 95rpx;
+  background-color: #fb6894;
+  border-radius: 40rpx;
+  text-align: center;
+  line-height: 95rpx;
+}
+.well{
+  color: #fff;
 }

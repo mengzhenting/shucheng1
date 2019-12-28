@@ -1,0 +1,46 @@
+<view class="head">
+  <view class="my-hand">
+    <text bindtap="etc" class="{{ico}}"></text>
+    <text class="my">{{my}}</text>
+    <text></text>
+  </view>
+  <view class="frame">
+    <view class="my-balance">{{balance}}</view>
+    <view class="money-number">
+      <text class="money">¥</text>
+      <input type="number" class="yuan" auto-focus="true"></input>
+    </view>
+  </view>
+  <view class="log" bindtap="block">
+    <text class="login">{{login}}</text>
+  </view>
+  <view hidden="{{hiddenName}}" class="ground">
+    <view class="verification">
+      <view class="cha">
+        <text bindtap="block" class="{{aa}}"></text>
+      </view>
+      <view class="frame1">
+        <view class="my-balance1">{{balance}}</view>
+        <view class="money1">{{money}}</view>
+      </view>
+      <view class="classification">
+        <text class="ranking">{{rank}}</text>
+        <view>
+          <text class="arrow">{{arrow}}</text>
+        </view>
+      </view>
+      <view class="classification">
+        <text class="ranking">{{rank1}}</text>
+        <view>
+          <text class="arrow">{{arrow1}}</text>
+          <text class="arrow1 iconfont icon-arrow-right"></text>
+        </view>
+      </view>
+      <view class="fingerprint">
+        <text class="{{wen}}"></text>
+        <text class="verify">{{verification}}</text>
+        <text class="password">{{password}}</text>
+      </view>
+    </view>
+  </view>
+</view>

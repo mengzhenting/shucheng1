@@ -1,0 +1,130 @@
+.home {
+  background-color: #21272e;
+  padding-left: 50rpx;
+  padding-top: 40rpx;
+}
+
+.top {
+  height: 120rpx;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100rpx;
+}
+
+.icon {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.classify {
+  color: #fff;
+  padding-right: 80rpx;
+  font-size: 40rpx;
+}
+
+.iconf {
+  color: #fff;
+  float: right;
+  font-size: 35rpx;
+}
+
+.shu {
+  position: relative;
+  margin-bottom: 40rpx;
+}
+
+.iconfo {
+  color: #9da3b4;
+  position: absolute;
+  top: 35rpx;
+  left: 36rpx;
+}
+
+.search {
+  height: 100rpx;
+  width: 650rpx;
+  background-color: #2d353d;
+  border-radius: 50rpx;
+  color: #fff;
+  box-sizing: border-box;
+  padding-left: 100rpx;
+}
+
+.type {
+  height: 100rpx;
+  margin-left: -50rpx;
+  border-bottom: 2rpx solid #9da3b4;
+  line-height: 100rpx;
+}
+
+.type-all {
+  color: #9da3b4;
+}
+
+.swi {
+  height: 100rpx !important;
+  width: 135rpx !important;
+  text-align: center;
+}
+
+.classification-bottom {
+  height: 100rpx;
+  width: 700rpx;
+  float: right;
+}
+.release{
+  border-bottom: 2rpx solid #5d637c;
+}
+.classification {
+  width: 650rpx;
+  height: 140rpx;
+  margin: 0 auto;
+  line-height: 140rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ranking {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.see {
+  color: #a2a8ba;
+  font-size: 30rpx;
+}
+
+.arrow {
+  color: #a2a8ba;
+  font-size: 60rpx;
+  vertical-align: middle;
+}
+
+.new {
+  height: 490rpx;
+  margin-right: 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works {
+  width: 190rpx;
+  height: 490rpx;
+}
+
+.future {
+  width: 190rpx;
+  height: 295rpx;
+  padding-bottom: 15rpx;
+}
+
+.book-name {
+  color: #fff;
+  font-size: 27rpx;
+}
+
+.writer-name {
+  display: block;
+  font-size: 25rpx;
+  color: #5d637c;
+}

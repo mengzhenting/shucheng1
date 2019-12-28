@@ -1,0 +1,14 @@
+<view class="head">
+  <view class="my-hand">
+    <text bindtap="back" class="{{ico}}"></text>
+    <text class="my">{{my}}</text>
+    <text></text>
+  </view>
+  <view class="frame">
+  <view class="my-balance">{{balance}}</view>
+  <view class="money">{{money}}</view>
+  </view>
+   <view class="log" bindtap="recharge">
+  <text class="login">{{login}}</text>
+  </view>
+</view>

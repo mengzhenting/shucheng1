@@ -1,0 +1,125 @@
+.home {
+  background-color: #21272e;
+  padding-left: 50rpx;
+  padding-top: 40rpx;
+  position: relative;
+}
+
+.top {
+  height: 120rpx;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100rpx;
+}
+
+.icon {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.classify {
+  color: #fff;
+  padding-right: 80rpx;
+  font-size: 40rpx;
+}
+
+.details {
+  width: 750rpx;
+  margin-top: -50rpx;
+}
+
+.details-title {
+  width: 650rpx;
+  height: 250rpx;
+  background-color: #2a3039;
+  text-align: left;
+  border-radius: 40rpx;
+}
+
+.details-all {
+  margin-top: 100rpx;
+  width: 640rpx !important;
+  position: relative;
+  overflow: visible;
+}
+
+.details-future {
+  position: absolute;
+  top: -30rpx;
+  left: 22rpx;
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+}
+
+.details-right {
+  float: right;
+  width: 370rpx;
+  padding: 20rpx 20rpx 0rpx 0;
+}
+
+.end-top {
+  height: 120rpx;
+  width: 300rpx;
+  border-bottom: 2rpx solid #5d637c;
+}
+
+.dian {
+  float: right;
+}
+
+.details-name {
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.writer-details {
+  display: block;
+  color: #5d637c;
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}
+
+.writer-about {
+  font-size: 40rpx;
+  color: #ff1d8d;
+  font-weight: bold;
+  padding-top: 20rpx;
+}
+
+.money {
+  display: flex;
+  justify-content: space-between;
+  height: 120rpx;
+  width: 650rpx;
+  margin-top: 100rpx;
+  margin-bottom: 140rpx;
+}
+
+.balance, .total {
+  color: #fff;
+}
+
+.surplus, .total-all {
+  padding-top: 50rpx;
+}
+
+.some1, .some {
+  color: #ff1d8d;
+  padding-left: 10rpx;
+}
+
+.bom {
+  height: 140rpx;
+  width: 750rpx;
+  margin-left: -50rpx;
+  position: fixed;
+  bottom: 0;
+  background-color: #fb6894;
+  text-align: center;
+  line-height: 140rpx;
+}
+
+.purchase {
+  color: #fff;
+}
